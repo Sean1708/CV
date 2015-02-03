@@ -59,6 +59,6 @@ Additional Skills
 
 * Proficient with spreadsheet and word processing software, including \LaTeX.
 * Highly competent with both Julia and Python, including external plotting packages.
-* See more at \url{https://github.com/Sean1708}.
+* See more at https://github.com/Sean1708.
 * Basic skills in the C language and shell programming.
 * First Aid qualified.
