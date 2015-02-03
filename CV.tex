@@ -1,0 +1,156 @@
+% heavily inspired by the article http://texblog.org/2012/04/25/writing-a-cv-in-latex/
+
+\documentclass[10pt]{article}
+
+\usepackage[UKenglish]{babel}
+\usepackage{fixltx2e}
+
+
+\usepackage[margin=3cm]{geometry}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{array, xcolor}
+\usepackage{nopageno}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+
+\renewcommand*{\familydefault}{\sfdefault}
+\newcommand{\VRule}{\vrule width 0.5pt}
+\newcommand{\blank}{\vspace{1.5ex} & \vspace{1.5ex}\\}
+
+
+\begin{document}
+\noindent\textbf{\huge Sean R. Marshallsay}
+\vspace{1.5ex}
+
+\begin{minipage}[ht]{0.48\textwidth}
+PERMANENT ADDRESS:\\
+3 Bay Close\\
+Calne\\
+SN11 0LL \vspace{1.5ex}\\
+EMAIL: \href{mailto:srm.1708@gmail.com}{srm.1708@gmail.com}
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+TERM ADDRESS:\\
+6 Heslington Road\\
+York\\
+YO10 5AT \vspace{1.5ex}\\
+TEL: +44 7786 247527
+\end{minipage}
+
+
+\section*{Education}
+\begin{longtable}{L! \VRule R}
+    \textbf{2012 - 2016} & \textbf{MPhys Experimental Physics, University of York}\\
+    & Worked in various teams of 2-5 to design, perform and present results from
+        several four week experiments.\\
+    & Learnt how to use various pieces of scientific software, including LabVIEW
+        and Python with SciPy.\\
+    & Fostered strong critical thinking and procedural skills through ongoing
+        and open-ended laboratory experiments.\\
+    & Experience in collecting, analysing and interpreting data.\\
+    & Experience presenting results and other information through both
+        presentations and formal reports.\\
+    & Learnt how to solve problems independently and built a strong independent
+        work ethic.\\
+
+    \blank
+
+    \textbf{2010 - 2012} & \textbf{Hardenhuish Academy Sixth Form}\\
+    A-Levels & Maths, Further Maths, Physics (A*, A, A)\\
+    AS-Levels & Critical Thinking, Chemistry (A, B)\\
+
+    \blank
+
+    \textbf{2008 - 2010} & \textbf{The John Bentley School}\\
+    10 GCSEs & Grades A*-A including Maths, Science, English and French
+\end{longtable}
+
+\section*{Work Experience}
+\begin{longtable}{L! \VRule R}
+    \textbf{JUL 2014 -} & \textbf{Office Assistant, New World Foods Ltd.}\\
+    \textbf{SEP 2014} & Worked in a small office providing support for various
+        aspects of the business.\\
+    & Used Microsoft Excel extensively as simple database for work orders and
+        sales orders.\\
+    & Responsible for tracking and analysing line efficiency and net product
+        made/delivered.\\
+    & Provided simple automation and ensured consistency using VBA Macros.\\
+
+    \blank
+
+    \textbf{MAR 2014 -} & \textbf{Data Administrator, Stroud Consulting}\\
+    \textbf{APR 2014} & Responsible for migrating a database from one applicant
+        tracking system to another.\\
+    & Quickly became familiar with two entirely new pieces of software.\\
+    & Acted as a liaison between two external companies.\\
+    & Wrote and delivered a short introductory course on using the new
+        software.\\
+    & In charge of ensuring that vacancy advertising was kept up to date.\\
+    & Ensured excellent customer service was delivered when contacting
+        candidates or answering phones.\\
+
+    \blank
+
+    \textbf{JAN 2014 -} & \textbf{Physics and Maths Tutor, mytutorweb.co.uk}\\
+    \textbf{APR 2014} & Designed and delivered one to one lessons.\\
+    & Gained experience building professional relationships.\\
+    & Developed strong communication skills.\\
+
+    \blank
+
+    \textbf{AUG 2012} & \textbf{Data Analyst, Artesia Consulting Ltd.}\\
+    & Collated and formatted weather data for use in statistical
+        modelling.\\
+    & Performed preliminary research and analysis.\\
+
+    \blank
+
+    \textbf{NOV 2011 -} & \textbf{Delivery Driver, FULLbellys Pet Food Ltd.}\\
+    \textbf{OCT 2012} & Built interpersonal skills through interaction with
+        customers.\\
+    & Learnt how to resolve conflicts when dealing with customer complaints.\\
+    & Developed thorough attention to detail when handling cash transactions.\\
+    & Experience using cash registers.\\
+
+    \blank
+
+    \textbf{JUL 2011} &
+        \textbf{Process Instruction Writing, IXYS UK Westcode Ltd.}\\
+    & Worked within a small team to develop the documents used in training
+        operators.\\
+    & Performed wafer and device processing within a clean room environment.\\
+    & Liaised with various departments to ensure accuracy in instructions.
+\end{longtable}
+
+\section*{Other Experience}
+\begin{longtable}{L! \VRule R}
+    \textbf{JUN 2014 -} & \textbf{President, University of York Karate Club}\\
+    \textbf{JUN 2015} & Developing leadership and teamwork skills by interacting
+        with the committee.\\
+    & Often teach sessions at the club and help others expand teaching skills.\\
+    & Teaching the club helps build patience and clarity of expression.\\
+    & Performed role of Vice-President, Jun 2013 - Jun 2014.\\
+
+    \blank
+
+    \textbf{SEP 2013 -} & \textbf{Second \& Third Year Contact, Alcuin College}\\
+    \textbf{OCT 2013} & Responsible for 12 first year students during the first
+        two weeks of the academic year.\\
+    & Greatly improved interpersonal skills.
+\end{longtable}
+
+\section*{Additional Skills}
+\begin{longtable}{L! \VRule R}
+    & Proficient with spreadsheet and word processing software, including \LaTeX.\\
+    & Highly competent with both Julia and Python, including external plotting
+        packages.\\
+    & See more at \url{https://github.com/Sean1708}.\\
+    & Basic skills in the C language and shell programming.\\
+    & First Aid qualified.
+\end{longtable}
+
+\section*{References}
+\noindent References available on request.
+\end{document}
