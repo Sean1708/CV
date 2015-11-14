@@ -1,12 +1,9 @@
 % heavily inspired by the article http://texblog.org/2012/04/25/writing-a-cv-in-latex/
 
-\documentclass[10pt]{article}
+\documentclass[a4paper, 10pt]{article}
 
 \usepackage[UKenglish]{babel}
-\usepackage{fixltx2e}
-
-
-\usepackage[margin=3cm]{geometry}
+\usepackage[margin=2cm]{geometry}
 \usepackage{longtable}
 \usepackage{hyperref}
 \usepackage{array, xcolor}
@@ -17,7 +14,7 @@
 
 \renewcommand*{\familydefault}{\sfdefault}
 \newcommand{\VRule}{\vrule width 0.5pt}
-\newcommand{\blank}{\vspace{1.5ex} & \vspace{1.5ex}\\}
+\newcommand{\blank}{\vspace{1.5ex} & \vspace{1.5ex}}
 
 
 \begin{document}
@@ -25,28 +22,32 @@
 \vspace{1.5ex}
 
 \begin{minipage}[ht]{0.48\textwidth}
-PERMANENT ADDRESS:\\
-3 Bay Close\\
-Calne\\
-SN11 0LL \vspace{1.5ex}\\
-EMAIL: \href{mailto:srm.1708@gmail.com}{srm.1708@gmail.com}
+    PERMANENT ADDRESS:\\
+    3 Bay Close\\
+    Calne\\
+    SN11 0LL \vspace{1.5ex}\\
+    EMAIL: \href{mailto:srm.1708@gmail.com}{srm.1708@gmail.com}
 \end{minipage}
 \begin{minipage}[ht]{0.48\textwidth}
-TERM ADDRESS:\\
-6 Heslington Road\\
-York\\
-YO10 5AT \vspace{1.5ex}\\
-TEL: +44 7786 247527
+    TERM ADDRESS:\\
+    20 Heworth Village\\
+    York\\
+    YO31 1AF \vspace{1.5ex}\\
+    TEL: +44 7786 247527
 \end{minipage}
 
 
 \section*{Education}
 \begin{longtable}{L! \VRule R}
     \textbf{2012 - 2016} & \textbf{MPhys Experimental Physics, University of York}\\
+    & Year long experiments and dissertation focussed on testing for
+        ferroelectricity and magnetoelectricity in various samples.\\
     & Worked in various teams of 2-5 to design, perform and present results from
         several four week experiments.\\
     & Learnt how to use various pieces of scientific software, including LabVIEW
-        and Python with SciPy.\\
+        and Python with the  SciPy stack.\\
+    & Undertaken courses in High Performance Computing in C.\\
+    & Strong focus on Semiconductor Physics and Magnetic Materials.\\
     & Undertaken courses in both analogue and digital electronics and have used
         analogue electronics extensively in laboratory sessions.\\
     & Fostered strong critical thinking and procedural skills through ongoing
@@ -57,13 +58,13 @@ TEL: +44 7786 247527
     & Learnt how to solve problems independently and built a strong independent
         work ethic.\\
 
-    \blank
+    \blank\\
 
     \textbf{2010 - 2012} & \textbf{Hardenhuish Academy Sixth Form}\\
     A-Levels & Maths, Further Maths, Physics (A*, A, A)\\
     AS-Levels & Critical Thinking, Chemistry (A, B)\\
 
-    \blank
+    \blank\\
 
     \textbf{2008 - 2010} & \textbf{The John Bentley School}\\
     10 GCSEs & Grades A*-A including Maths, Science, English and French
@@ -71,6 +72,17 @@ TEL: +44 7786 247527
 
 \section*{Work Experience}
 \begin{longtable}{L! \VRule R}
+    \textbf{JUL 2015 -} & \textbf{Research Assistant, Condensed Matter Physics, University of York}\\
+    \textbf{SEP 2015} & Designed and developed a device for testing
+        ferroelectricity and magnetoelectricity in crystal samples.\\
+    & Designed and implemented a user interface for the device using LabVIEW.\\
+    & Became proficient at picking key information out from technical documents.\\
+    & Worked with high voltage and high sensitivity electronic components.\\
+    & Learnt how to draw complex circuit diagrams and other technical drawings.\\
+    & Trained in lab safety.\\
+
+    \blank\\
+
     \textbf{JUL 2014 -} & \textbf{Office Assistant, New World Foods Ltd.}\\
     \textbf{SEP 2014} & Worked in a small office providing support for various
         aspects of the business.\\
@@ -80,7 +92,7 @@ TEL: +44 7786 247527
         made/delivered.\\
     & Provided simple automation and ensured consistency using VBA Macros.\\
 
-    \blank
+    \blank\\
 
     \textbf{MAR 2014 -} & \textbf{Data Administrator, Stroud Consulting}\\
     \textbf{APR 2014} & Responsible for migrating a database from one applicant
@@ -93,21 +105,21 @@ TEL: +44 7786 247527
     & Ensured excellent customer service was delivered when contacting
         candidates or answering phones.\\
 
-    \blank
+    \blank\\
 
     \textbf{JAN 2014 -} & \textbf{Physics and Maths Tutor, mytutorweb.co.uk}\\
     \textbf{APR 2014} & Designed and delivered one to one lessons.\\
     & Gained experience building professional relationships.\\
     & Developed strong communication skills.\\
 
-    \blank
+    \blank\\
 
     \textbf{AUG 2012} & \textbf{Data Analyst, Artesia Consulting Ltd.}\\
     & Collated and formatted weather data for use in statistical
         modelling.\\
     & Performed preliminary research and analysis.\\
 
-    \blank
+    \blank\\
 
     \textbf{NOV 2011 -} & \textbf{Delivery Driver, FULLbellys Pet Food Ltd.}\\
     \textbf{OCT 2012} & Built interpersonal skills through interaction with
@@ -116,7 +128,7 @@ TEL: +44 7786 247527
     & Developed thorough attention to detail when handling cash transactions.\\
     & Experience using cash registers.\\
 
-    \blank
+    \blank\\
 
     \textbf{JUL 2011} &
         \textbf{Process Instruction Writing, IXYS UK Westcode Ltd.}\\
@@ -135,7 +147,7 @@ TEL: +44 7786 247527
     & Teaching the club helps build patience and clarity of expression.\\
     & Performed role of Vice-President, Jun 2013 - Jun 2014.\\
 
-    \blank
+    \blank\\
 
     \textbf{SEP 2013 -} & \textbf{Second \& Third Year Contact, Alcuin College}\\
     \textbf{OCT 2013} & Responsible for 12 first year students during the first
@@ -145,14 +157,33 @@ TEL: +44 7786 247527
 
 \section*{Additional Skills}
 \begin{longtable}{L! \VRule R}
-    & Proficient with spreadsheet and word processing software, including \LaTeX.\\
+    & Proficient with spreadsheet and word processing software; including Microsoft Office,
+        OriginLab and \LaTeX.\\
     & Highly competent with both Julia and Python, including external plotting
         packages.\\
+    & Experience with systems programming in both C and Rust.\\
     & See more at \url{https://github.com/Sean1708}.\\
-    & Basic skills in the C language and shell programming.\\
-    & First Aid qualified.
 \end{longtable}
 
 \section*{References}
-\noindent References available on request.
+\begin{minipage}[hb]{0.48\textwidth}
+    \textbf{Dr Stuart Cavill} - Project Supervisor\\
+    Lecturer in Condensed Matter Physics\\
+    Department of Physics\\
+    University of York\\
+    York\\
+    YO10 5DD \vspace{1.5ex}\\
+    EMAIL: \href{mailto:stuart.cavill@york.ac.uk}{stuart.cavill@york.ac.uk}\\
+    TEL: +44 1904 322 200
+\end{minipage}
+\begin{minipage}[hb]{0.48\textwidth}
+    \textbf{Roland Froebel}\\
+    Managing Director\\
+    New World Foods (Europe) Ltd.\\
+    Oakland Farms, Church Lane\\
+    Moor Monkton, York\\
+    YO26 8LA \vspace{1.5ex}\\
+    EMAIL: \href{mailto:roland@newworldfoods.co.uk}{roland@newworldfoods.co.uk}\\
+    TEL: +44 1904 737 862
+\end{minipage}
 \end{document}
