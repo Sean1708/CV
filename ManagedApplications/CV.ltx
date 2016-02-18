@@ -1,0 +1,150 @@
+% heavily inspired by the article http://texblog.org/2012/04/25/writing-a-cv-in-latex/
+
+\documentclass[a4paper, 10pt]{article}
+
+\usepackage[UKenglish]{babel}
+\usepackage[margin=3cm]{geometry}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{array, xcolor}
+\usepackage{nopageno}
+
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+
+\renewcommand*{\familydefault}{\sfdefault}
+\newcommand{\VRule}{\vrule width 0.5pt}
+\newcommand{\blank}{\vspace{1.5ex} & \vspace{1.5ex}}
+
+
+\begin{document}
+\noindent\textbf{\huge Sean Marshallsay}
+\vspace{1.5ex}
+
+\section*{Education}
+\begin{longtable}{L! \VRule R}
+    \textbf{2012 - 2016} & \textbf{MPhys Experimental Physics, University of York}\\
+    & Year long experiments and dissertation focussed on testing for
+        ferroelectricity and magnetoelectricity in various samples.\\
+    & Worked in various teams of 2-5 to design, perform and present results from
+        several four week experiments.\\
+    & Learnt how to use various pieces of scientific software, including LabVIEW
+        and Python with the  SciPy stack.\\
+    & Undertaken courses in High Performance Computing in C, including OpenMP- and MPI-style
+        parallelism.\\
+    & Strong focus on Semiconductor Physics and Magnetic Materials.\\
+    & Undertaken courses in both analogue and digital electronics and have used
+        analogue electronics extensively in laboratory sessions.\\
+    & Fostered strong critical thinking and procedural skills through ongoing
+        and open-ended laboratory experiments.\\
+    & Experience in collecting, analysing and interpreting data.\\
+    & Experience presenting results and other information through both
+        presentations and formal reports.\\
+    & Learnt how to solve problems independently and built a strong independent
+        work ethic.\\
+
+    \blank\\
+
+    \textbf{2010 - 2012} & \textbf{Hardenhuish Academy Sixth Form}\\
+    A-Levels & Maths, Further Maths, Physics (A*, A, A)\\
+    AS-Levels & Critical Thinking, Chemistry (A, B)\\
+
+    \blank\\
+
+    \textbf{2008 - 2010} & \textbf{The John Bentley School}\\
+    10 GCSEs & Grades A*-A including Maths, Science, English and French
+\end{longtable}
+
+\section*{Technical Skills}
+\begin{longtable}{L! \VRule R}
+    & Proficient with spreadsheet and word processing software; including Microsoft Office,
+        OriginLab and \LaTeX.\\
+    & Highly competent with with scientific programming in Python and the SciPy stack, as well as
+        some experience with the Julia language and Gadfly.\\
+    & Experience interfacing with databases from Python and Julia, including being the co-maintainer
+        for \href{https://github.com/JuliaDB/SQLite.jl/}{SQLite.jl}.\\
+    & Knowledge of OpenMP- and MPI-style parallelism in C, and courses in optimising high
+        performance C and Fortran code.\\
+    & Experience with systems programming in Rust, being the sole maintainer of the mildly popular
+        \href{https://github.com/Sean1708/rusty-cheddar}{rusty-cheddar} crate.\\
+    & Familiarity with Unix operating systems, along with Bash and similar shells.\\
+    & Experience using SSH to run programs on a cluster computer.\\
+    & See more at \href{https://github.com/Sean1708}{https://github.com/Sean1708}.
+\end{longtable}
+
+\section*{Work Experience}
+\begin{longtable}{L! \VRule R}
+    \textbf{JUL 2015 -} & \textbf{Research Assistant, Condensed Matter Physics, University of York}\\
+    \textbf{SEP 2015} & Designed and developed a device for testing
+        ferroelectricity and magnetoelectricity in crystal samples.\\
+    & Designed and implemented a user interface for the device using LabVIEW.\\
+    & Became proficient at picking key information out from technical documents.\\
+    & Worked with high voltage and high sensitivity electronic components.\\
+    & Learnt how to draw complex circuit diagrams and other technical drawings.\\
+    & Trained in lab safety.\\
+
+    \blank\\
+
+    \textbf{JUL 2014 -} & \textbf{Office Assistant, New World Foods Ltd.}\\
+    \textbf{SEP 2014} & Worked in a small office providing support for various
+        aspects of the business.\\
+    & Used Microsoft Excel extensively as simple database for work orders and
+        sales orders.\\
+    & Responsible for tracking and analysing line efficiency and net product
+        made/delivered.\\
+    & Provided simple automation and ensured consistency using VBA Macros.\\
+
+    \blank\\
+
+    \textbf{MAR 2014 -} & \textbf{Data Administrator, Stroud Resourcing}\\
+    \textbf{APR 2014} & Responsible for migrating a database from one applicant
+        tracking system to another.\\
+    & Quickly became familiar with two entirely new pieces of software.\\
+    & Acted as a liaison between two external companies.\\
+    & Wrote and delivered a short introductory course on using the new
+        software.\\
+    & In charge of ensuring that vacancy advertising was kept up to date.\\
+    & Ensured excellent customer service was delivered when contacting
+        candidates or answering phones.\\
+
+    \blank\\
+
+    \textbf{JAN 2014 -} & \textbf{Physics and Maths Tutor, mytutorweb.co.uk}\\
+    \textbf{APR 2014} & Designed and delivered one to one lessons.\\
+    & Gained experience building professional relationships.\\
+    & Developed strong communication skills.\\
+
+    \blank\\
+
+    \textbf{AUG 2012} & \textbf{Data Analyst, Artesia Consulting Ltd.}\\
+    & Collated and formatted weather data for use in statistical
+        modelling.\\
+    & Performed preliminary research and analysis.\\
+
+    \blank\\
+
+    \textbf{JUL 2011} &
+        \textbf{Process Instruction Writing, IXYS UK Westcode Ltd.}\\
+    & Worked within a small team to develop the documents used in training
+        operators.\\
+    & Performed wafer and device processing within a clean room environment.\\
+    & Liaised with various departments to ensure accuracy in instructions.
+\end{longtable}
+
+\section*{Other Experience}
+\begin{longtable}{L! \VRule R}
+    \textbf{JUN 2014 -} & \textbf{President, University of York Karate Club}\\
+    \textbf{JUN 2015} & Developing leadership and teamwork skills by interacting
+        with the committee.\\
+    & Often teach sessions at the club and help others expand teaching skills.\\
+    & Teaching the club helps build patience and clarity of expression.\\
+    & Performed role of Vice-President, Jun 2013 - Jun 2014.\\
+
+    \blank\\
+
+    \textbf{SEP 2013 -} & \textbf{Second \& Third Year Contact, Alcuin College}\\
+    \textbf{OCT 2013} & Responsible for 12 first year students during the first
+        two weeks of the academic year.\\
+    & Greatly improved interpersonal skills.
+\end{longtable}
+\end{document}
